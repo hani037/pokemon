@@ -1,0 +1,40 @@
+
+.Pokemon {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #b6bac0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 250px;
+    height: 400px;
+}
+
+.Pokemon:hover {
+    transform: scale(1.05);
+    border: 1px solid #dc1414;
+
+}
+
+.Pokemon img {
+    width: 200px;
+    height: 200px;
+}
+
+.Pokemon h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.type {
+    background-color: white;
+    color: black;
+    min-width: 100px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}

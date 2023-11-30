@@ -1,0 +1,77 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  font-size: 40px;
+  color: #0a0a0a;
+}
+.container{
+  border: 1px solid #ddd;
+  background-color: #bfe1ea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  max-width: 1200px;
+}
+.button{
+  height: 40px;
+  background: #0a0a0a;
+  color: white;
+  border-radius: 0;
+}
+.previous{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.next{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.input-search{
+  height: 35px;
+  width: 300px;
+}
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.search-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.filter-container div {
+  margin-right: 10px;
+}
+
+.filter-container label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.filter-container select {
+  padding: 8px;
+  width: 150px;
+}
